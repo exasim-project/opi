@@ -5,7 +5,7 @@ It has the goal to simplify discovery and installation of community based packag
 
 # Adding your Package
 
-Adding a package to the list is simple.
+Adding a package to the index is simple.
 Fork this repository, and add the package meta data as a json file to pck/<your_package>/<your_package>.json.
 
 An example is given below
@@ -21,4 +21,8 @@ An example is given below
     "keywords": ["GPU", "linear solver"]       # optional keywords for searching and grouping e.g. turbulence, scheme
 }
 
+# Usecases
 
+Based on this package index we can build a package manager that can automatically resolve depencies.
+
+# Limitations
