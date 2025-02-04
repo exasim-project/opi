@@ -6,8 +6,7 @@
       "type": "string"
     },
     "repo": {
-      "type": "string",
-      "format": "uri"
+      "type": "string"
     },
     "description": {
       "type": "string",
