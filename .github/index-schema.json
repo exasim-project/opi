@@ -8,6 +8,9 @@
     "repo": {
       "type": "string"
     },
+    "license": {
+      "type": "string"
+    },
     "description": {
       "type": "string",
       "maxLength": 200
