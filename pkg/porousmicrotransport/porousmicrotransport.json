@@ -1,0 +1,9 @@
+{
+    "name": "porousMicroTransport",
+    "repo": "github.com/gerlero/porousMicroTransport",
+    "description": "OpenFOAM solvers for flow and transport in porous media in paper-based microfluidics",
+    "type": "app",
+    "build": ["Allwmake"],
+    "version": [">=2112"],
+    "keywords": ["microfluidics", "porous media", "lab-on-a-chip", "paper-based"]
+}
