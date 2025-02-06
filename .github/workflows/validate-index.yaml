@@ -1,0 +1,23 @@
+name: Validate OPI index
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate-index:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install JSON Schema Validator (AJV)
+        run: npm install -g ajv-cli
+      - name: Validate JSON files
+        run: |
+          for file in pkg/*/*.json; do
+            echo "Validating $file..."
+            ajv validate -s .github/index-schema.json -d "$file" || exit 1
+          done
