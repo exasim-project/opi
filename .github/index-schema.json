@@ -13,14 +13,32 @@
       "maxLength": 200
     },
     "type": {
-      "type": "string",
-      "enum": ["lib", "app"]
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "lib",
+            "solver",
+            "data",
+            "app"
+          ]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
     },
     "build": {
       "oneOf": [
         {
           "type": "string",
-          "enum": ["wmake", "cmake"]
+          "enum": [
+            "wmake",
+            "cmake"
+          ]
         },
         {
           "type": "array",
@@ -34,8 +52,12 @@
       "type": "array",
       "items": {
         "oneOf": [
-          { "type": "string" },
-          { "type": "integer" }
+          {
+            "type": "string"
+          },
+          {
+            "type": "integer"
+          }
         ]
       }
     },
@@ -46,5 +68,9 @@
       }
     }
   },
-  "required": ["name", "repo", "build"]
+  "required": [
+    "name",
+    "repo",
+    "build"
+  ]
 }
