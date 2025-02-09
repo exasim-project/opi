@@ -1,0 +1,10 @@
+{
+    "name": "hybridCentralSolvers",
+    "repo": "https://github.com/unicfdlab/hybridCentralSolvers",
+    "description": "A set of solvers for simulation of compressible flows in a wide Mach number range using the single approach: one-phase, multicomponent and multiphase versions",
+    "type": "app",
+    "build": ["git checkout digitef-dev-v2412",  "./SwitchDest", "cd Sources && ./Allwmake"],
+    "version": [">=2412"],
+    "keywords": ["gas dynamics", "hybrid scheme", "compressible flows", "KNP scheme", "implicit method"]
+}
+
