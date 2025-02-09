@@ -1,0 +1,10 @@
+{
+    "name": "QGDsolver",
+    "repo": "https://github.com/unicfdlab/QGDsolver",
+    "description": "A set of solvers for simulation of compressible flows in a wide Mach number range using regularized equations: one-phase, multicomponent and multiphase versions",
+    "type": "app",
+    "build": ["git checkout v2412",  "./SwitchDest", "./Allwmake"],
+    "version": [">=2412"],
+    "keywords": ["gas dynamics", "regularized equations", "QGD", "QGDFoam", "DNS"]
+}
+

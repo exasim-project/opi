@@ -1,0 +1,10 @@
+{
+    "name": "libAcoustics",
+    "repo": "https://github.com/unicfdlab/libAcoustics",
+    "description": "A Computational Aero Acoustics (CAA) library for OpenFOAM",
+    "type": "lib",
+    "build": ["git checkout v2412",  "./SwitchDest", "./makeLibrary.sh"],
+    "version": [">=2412"],
+    "keywords": ["CAA", "computational aero acoustics", "Curle analogy", "Ffowcs Williams-Hawkings analogy", "FFWH analogy"]
+}
+
