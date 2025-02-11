@@ -1,5 +1,7 @@
 # OPI - A Package Index for FOAM Projects
 
+![](https://byob.yarr.is/exasim-project/opi/count)
+
 OPI is a package index for FOAM projects.
 It has the goal to simplify discovery and installation of community based packages.
 
