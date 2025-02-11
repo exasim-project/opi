@@ -1,10 +1,9 @@
-name: Validate OPI index
+name: Count Packages
 
 on:
   merge:
     branches:
       - main
-
 
 jobs:
   badge_job:
