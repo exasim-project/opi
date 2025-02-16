@@ -8,7 +8,8 @@ It has the goal to simplify discovery and installation of community based packag
 # Adding your Package
 
 Adding a package to the index is simple.
-Fork this repository, and add the package meta data as a json file to `pkg/<your_package>/<your_package>.json`.
+Fork this repository, and add the package meta data as a json file to `pkg/<your_package>/metadata.json`.
+Please note that the package name should be in lower case. 
 
 An example is given below
 
