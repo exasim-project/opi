@@ -3,7 +3,7 @@
     "repo": "urlofyourpackage",
     "description": "This package does x and y",
     "type": "app",
-    "build": ["Allwmake"],
+    "build": "wmake",
     "version": [">=2112"],
     "keywords": ["a list of keywords"]
 }
