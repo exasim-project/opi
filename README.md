@@ -9,6 +9,7 @@ It has the goal to simplify discovery and installation of community based packag
 
 Adding a package to the index is simple.
 Fork this repository, and add the package meta data as a json file to `pkg/<your_package>/metadata.json`.
+You can use the template metadata.json file in the root of this repository.
 Please note that the package name should be in lower case. 
 
 An example is given below
