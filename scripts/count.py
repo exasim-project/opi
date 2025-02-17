@@ -20,8 +20,11 @@ def main():
         metadata_path = Path(root) / fold / "metadata.json"
         if metadata_path.exists():
             extract_type(metadata_path, ctr)
+    total = 0
+    for k,v in ctr.items():
+        total+=v
     print(
-        f"total: {len(ctr)} libs: {ctr['lib']} solver: {ctr['solver']} apps: {ctr['app']}, data: {ctr['data']}  "
+        f"total: {total} libs: {ctr['lib']} solver: {ctr['solver']} apps: {ctr['app']}, data: {ctr['data']}  "
     )
 
 
