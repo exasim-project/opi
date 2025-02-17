@@ -20,7 +20,7 @@ An example is given below
     "repo": "github.com/hpsim/OGL.git",        # required
     "description":"GPU capable linear solver", # A short description to print in CLI max 80 chars
     "type": "lib",                             # optional, possible values: [lib,app,data,solver]
-    "build":  # required, how to build the package, possible values ["wmake", "cmake", ["list of steps"]]
+    "build":  # optional, how to build the package, default "wmake", possible values ["wmake", "cmake", ["list of steps"]]
       ["cmake --preset release", "cmake --build --preset release", "cmake --build --preset release --target install"],
     "version": [">=2304", "<8"],               # optional, required FOAM version possible format examples: [  2304, 8, 0.1.0]  
     "keywords": ["GPU", "linear solver"]       # optional keywords for searching and grouping e.g. turbulence, scheme

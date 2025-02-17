@@ -73,7 +73,6 @@
   },
   "required": [
     "name",
-    "repo",
-    "build"
+    "repo"
   ]
 }
