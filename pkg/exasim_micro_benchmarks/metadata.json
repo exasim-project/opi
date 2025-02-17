@@ -1,0 +1,9 @@
+{
+    "name": "exasimMicroBenchmarks",
+    "repo": "https://github.com/exasim-project/micro_benchmarks",
+    "description": "A collection of OpenFOAM cases to benchmark in the exasim project",
+    "type": "data",
+    "build": [],
+    "version": [">=2406"],
+    "keywords": ["Benchmark"]
+}
