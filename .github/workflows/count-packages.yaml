@@ -21,5 +21,5 @@ jobs:
           NAME: count
           LABEL: 'Packages'
           STATUS: ${{ env.PKG_COUNT }}
-          COLOR: 00EEFF
+          COLOR: blue
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
