@@ -3,5 +3,5 @@
     "repo": "https://github.com/phorgue/porousMultiphaseFoam",
     "description": "A porous multiphase toolbox for OpenFOAM",
     "type": "app",
-    "version": [">=2406"],
+    "version": [">=2406"]
 }
