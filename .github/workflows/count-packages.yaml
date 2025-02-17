@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: count
-        run: echo "PKG_COUNT=$(find pkg/* -maxdepth 0 -type d | wc -l)" >> $GITHUB_ENV
+        run: echo "PKG_COUNT=$(python scripts/count.py)" >> $GITHUB_ENV
       - name: count badge
         uses: RubbaBoy/BYOB@v1.3.0
         with:
