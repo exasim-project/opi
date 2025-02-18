@@ -1,0 +1,9 @@
+{
+    "name": "WENOEXT",
+    "repo": "https://github.com/WENO-OF/WENOEXT",
+    "description": "Weighted essentially non-oscillatory library for the framework of OpenFOAM",
+    "type": "lib",
+    "build": ["./Allwmake"],
+    "version": [">=2012"],
+    "keywords": ["WENO"]
+}
