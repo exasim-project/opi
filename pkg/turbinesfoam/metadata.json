@@ -1,0 +1,8 @@
+{
+  "name": "turbinesFoam",
+  "repo": "https://github.com/turbinesFoam/turbinesFoam",
+  "description": "A library for simulating wings and wind/hydrokinetic turbines using the actuator line method and the fvOptions framework.",
+  "type": "lib",
+  "version": [">=2112"],
+  "keywords": ["wind energy", "actuator lines", "turbines"]
+}
