@@ -4,6 +4,5 @@
     "description": "Reconstruction of 3D city geometries for urban CFD simulations",
     "type": "app",
     "build": [],
-    "version": ["*"],
     "keywords": ["geometry reconstruction", "preprocessing"]
 }
