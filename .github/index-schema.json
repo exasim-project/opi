@@ -6,7 +6,8 @@
       "type": "string"
     },
     "repo": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^https:\\/\\/[\\S]+\\/[\\S]+\\.git$"
     },
     "license": {
       "type": "string"
