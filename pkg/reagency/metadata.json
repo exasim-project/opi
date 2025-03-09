@@ -1,6 +1,6 @@
 {
     "name": "reagency",
-    "repo": "https://github.com/gerlero/reagency",
+    "repo": "https://github.com/gerlero/reagency.git",
     "description": "A simple, extensible reaction model for OpenFOAM",
     "type": "app",
     "version": [">=2112"],

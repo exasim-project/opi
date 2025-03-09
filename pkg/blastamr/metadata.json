@@ -1,6 +1,6 @@
 {
     "name": "blastAMR",
-    "repo": "github.com/STFS-TUDa/blastAMR",
+    "repo": "https://github.com/STFS-TUDa/blastAMR.git",
     "description": "A Load-balanced adaptive mesh refinement library for OpenFOAM",
     "type": "lib",
     "build": ["wmake src/errorEstimators", "wmake src/dynamicMesh", "wmake src/dynamicFvMesh", "wmake applications/utilities/updateMesh"],

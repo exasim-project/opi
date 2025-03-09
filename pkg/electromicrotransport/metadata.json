@@ -1,6 +1,6 @@
 {
     "name": "electroMicroTransport",
-    "repo": "https://gitlab.com/santiagomarquezd/electroMicroTransport",
+    "repo": "https://gitlab.com/santiagomarquezd/electroMicroTransport.git",
     "description": "Open-source toolbox for paper-based electromigrative separations",
     "type": "app",
     "version": [">=2006"]

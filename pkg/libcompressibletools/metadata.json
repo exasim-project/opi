@@ -1,6 +1,6 @@
 {
     "name": "libAcoustics",
-    "repo": "https://github.com/unicfdlab/libcompressibleTools",
+    "repo": "https://github.com/unicfdlab/libcompressibleTools.git",
     "description": "A library containing various useful tools for compressible flow computations: BCs, function objects, etc",
     "type": "lib",
     "build": ["git checkout v2412",  "./SwitchDest", "cd Sources && ./Allwmake"],

@@ -1,6 +1,6 @@
 {
     "name": "libAcoustics",
-    "repo": "https://github.com/unicfdlab/libAcoustics",
+    "repo": "https://github.com/unicfdlab/libAcoustics.git",
     "description": "A Computational Aero Acoustics (CAA) library for OpenFOAM",
     "type": "lib",
     "build": ["git checkout v2412",  "./SwitchDest", "./makeLibrary.sh"],

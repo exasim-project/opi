@@ -1,6 +1,6 @@
 {
     "name": "city4cfd",
-    "repo": "https://github.com/tudelft3d/City4CFD",
+    "repo": "https://github.com/tudelft3d/City4CFD.git",
     "description": "Reconstruction of 3D city geometries for urban CFD simulations",
     "type": "app",
     "build": [],
