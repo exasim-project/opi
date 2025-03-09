@@ -16,16 +16,16 @@ An example is given below
 
 ```
 {
-    "name": "ogl",                             # required
-    "repo": "github.com/hpsim/OGL.git",        # required
-    "description":"GPU capable linear solver", # A short description to print in CLI max 80 chars
-    "type": "lib",                             # optional, possible values: [lib,app,data,solver]
-    "build":  # optional, how to build the package, default "wmake", possible values ["wmake", "cmake", ["list of steps"]]
-      ["cmake --preset release", "cmake --build --preset release", "cmake --build --preset release --target install"],
-    "version": [">=2304", "<8"],               # optional, required FOAM version possible format examples: [  2304, 8, 0.1.0]  
-    "keywords": ["GPU", "linear solver"]       # optional keywords for searching and grouping e.g. turbulence, scheme
+    "name": "ogl",                              # required
+    "repo": "https://github.com/hpsim/OGL.git", # required
+    "description":"GPU capable linear solver",  # A short description to print in CLI max 80 chars
+    "type": "lib",                              # optional, possible values: [lib,app,data,solver]
+    "version": [">=2304", "<8"],                # optional, required FOAM version possible format examples: [  2304, 8, 0.1.0]  
+    "keywords": ["GPU", "linear solver"]        # optional keywords for searching and grouping e.g. turbulence, scheme
 }
 ```
+
+For non-standard (i.e., non-`wmake`–based) builds, you can also include a `"build"` field in the `metadata.json` file with a list of shell commands needed to build the package.
 
 # Usecases
 

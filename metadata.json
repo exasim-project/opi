@@ -3,7 +3,6 @@
     "repo": "https://url/of/your/repo.git",
     "description": "This package does x and y",
     "type": "app",
-    "build": "wmake",
     "version": [">=2112"],
     "keywords": ["a list of keywords"]
 }
