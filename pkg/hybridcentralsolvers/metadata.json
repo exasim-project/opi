@@ -1,6 +1,6 @@
 {
     "name": "hybridCentralSolvers",
-    "repo": "https://github.com/unicfdlab/hybridCentralSolvers",
+    "repo": "https://github.com/unicfdlab/hybridCentralSolvers.git",
     "description": "A set of solvers for simulation of compressible flows in a wide Mach number range using the single approach: one-phase, multicomponent and multiphase versions",
     "type": "app",
     "build": ["git checkout digitef-dev-v2412",  "./SwitchDest", "cd Sources && ./Allwmake"],

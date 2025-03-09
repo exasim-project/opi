@@ -1,6 +1,6 @@
 {
     "name": "examplePackage",
-    "repo": "urlofyourpackage",
+    "repo": "https://url/of/your/repo.git",
     "description": "This package does x and y",
     "type": "app",
     "build": "wmake",

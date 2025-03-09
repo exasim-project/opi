@@ -1,6 +1,6 @@
 {
     "name": "loadBalancedChemistryModel",
-    "repo": "https://github.com/ITV-Stuttgart/loadBalancedChemistryModel",
+    "repo": "https://github.com/ITV-Stuttgart/loadBalancedChemistryModel.git",
     "description": "A Load-balanced chemistry model for the standard and TDAC model",
     "type": "lib",
     "build": ["./PrepareOpenFOAM.sh", "./Allwmake"],
