@@ -27,9 +27,9 @@ An example is given below
 
 For non-standard (i.e., non-`wmake`–based) builds, you can also include a `"build"` field in the `metadata.json` file with a list of shell commands needed to build the package.
 
-# Usecases
+# [`styro`](https://github.com/gerlero/styro): community package manager
 
-Based on this package index we can build a package manager that can automatically resolve depencies, allows virtual environments for case studies with different package versions.
+[`styro`](https://github.com/gerlero/styro) is a community package manager for OpenFOAM that can install and manage packages listed here in OPI.
 
 # [Optional] Index badge in your README
 
