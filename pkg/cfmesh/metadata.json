@@ -1,0 +1,7 @@
+{
+    "name": "cfMesh",
+    "repo": "https://develop.openfoam.com/Community/integration-cfmesh.git",
+    "description": "Library for mesh generation built on OpenFOAM",
+    "type": "app",
+    "keywords": ["mesh"]
+}
