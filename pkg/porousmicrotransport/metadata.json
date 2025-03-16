@@ -4,6 +4,6 @@
     "description": "OpenFOAM solvers for flow and transport in porous media in paper-based microfluidics",
     "type": "app",
     "version": [">=2112"],
-    "requires": ["reagency"]
+    "requires": ["reagency"],
     "keywords": ["microfluidics", "porous media", "lab-on-a-chip", "paper-based"]
 }
