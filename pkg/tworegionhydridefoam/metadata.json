@@ -1,6 +1,6 @@
 {
     "name": "twoRegionHydrideFoam",
-    "repo": "https://github.com/ChristophUlrichITV/twoRegionHydrideFoam",
+    "repo": "https://github.com/ChristophUlrichITV/twoRegionHydrideFoam.git",
     "description": "An OpenFOAM Solver to investigate the dynamic absorption and desorption processes in metal-hydrides",
     "type": "app",
     "version": ["v8"],
