@@ -1,0 +1,8 @@
+{
+    "name": "interThermalRadConvFoam",
+    "repo": "https://github.com/BiElisa/interThermalRadConvFoam.git",
+    "description": "Solver to simulate free-surface viscous fluids. Temperature changes due to radiative, convective, and conductive heat exchanges. Test cases: a benchmark and a lava flow simulation on a real topography",
+    "type": "solver",
+    "version": [">=1912"],
+    "keywords": ["3D multiphase", "Heat transfer", "Lava", "Lava flows", "Real topography", "Temperature-dependent viscosity","Non Arrhenian Newtonian viscosity"]
+}
