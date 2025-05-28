@@ -1,0 +1,8 @@
+{
+    "name": "twophaseintertrackfoam",
+    "repo": "https://gitlab.com/interface-tracking/twophaseintertrackfoamrelease",
+    "description": "ALE Interface Tracking with surfactants and subgrid-scale modeling",
+    "type": "app",
+    "version": [">=2306"],
+    "keywords": ["two-phase", "ALE-IT", "Interface Tracking", "subgrid-scale model", "subgrid-scale conjugate mass transfer", "Arbitrary Lagrangian/Eulerian Interface Tracking", "surfactants", "twoPhaseInterTrackFoam"]
+}
