@@ -5,6 +5,8 @@ on:
     branches: 
       - main
     types: [closed]
+  schedule:
+    - cron: "0 9 * * *"
 
 jobs:
   badge_job:
