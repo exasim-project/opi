@@ -20,7 +20,8 @@ An example is given below
     "repo": "https://github.com/hpsim/OGL.git", # required
     "description":"GPU capable linear solver",  # A short description to print in CLI max 80 chars
     "type": "lib",                              # optional, possible values: [lib,app,data,solver]
-    "version": [">=2304", "<8"],                # optional, required FOAM version possible format examples: [  2304, 8, 0.1.0]  
+    "version": [">=2304", "<8"],                # optional, required FOAM version possible format examples: [  2304, 8, 0.1.0]
+    "requires": ["other-package"]               # optional, list of other OPI packages that need to be installed before  
     "keywords": ["GPU", "linear solver"]        # optional keywords for searching and grouping e.g. turbulence, scheme
 }
 ```
