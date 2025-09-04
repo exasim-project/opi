@@ -3,6 +3,6 @@
     "repo": "https://github.com/precice/openfoam-adapter.git",
     "description": "An OpenFOAM function object for CHT, FSI, and fluid-fluid coupled simulations using preCICE",
     "type": "lib",
-    "version": [">=2112"],
+    "version": [">=1812"],
     "keywords": ["preCICE", "co-simulation", "multiphysics", "fluid-structure interaction", "conjugate heat transfer"],
 }
