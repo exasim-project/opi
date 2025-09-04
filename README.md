@@ -44,7 +44,3 @@ As an example, dynamic JSON badges from [shields.io](https://shields.io/badges/d
 You can then paste the link to the badge into your README file, it will look like this:
 
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fexasim-project%2Fopi%2Frefs%2Fheads%2Fmain%2Fpkg%2Fogl%2Fmetadata.json&query=%24.%5Bname%2Ctype%2Cversion%5D&style=for-the-badge&label=OPI&labelColor=%230cc8cf&color=%23131d36&link=https%3A%2F%2Fgithub.com%2Fexasim-project%2Fopi)
-
-# Limitations
-
-Currently, no interdependencies between packages or specific environment constraints are considered. 
