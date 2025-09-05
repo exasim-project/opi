@@ -1,5 +1,5 @@
 {
-    "name": "OpenFOAM-preCICE adapter",
+    "name": "precice-adapter",
     "repo": "https://github.com/precice/openfoam-adapter.git",
     "description": "An OpenFOAM function object for CHT, FSI, and fluid-fluid coupled simulations using preCICE",
     "type": "lib",
