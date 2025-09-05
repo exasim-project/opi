@@ -30,6 +30,8 @@ For non-standard (i.e., non-`wmake`–based) builds, you can also include a `"bu
 
 # [`styro`](https://github.com/gerlero/styro): community package manager
 
+[<img src="https://github.com/gerlero/styro/raw/main/logo.png" alt="styro" width="150"/>](https://github.com/gerlero/styro)
+
 [`styro`](https://github.com/gerlero/styro) is a community package manager for OpenFOAM that can install and manage packages listed here in OPI.
 
 # [Optional] Index badge in your README
