@@ -1,0 +1,8 @@
+{
+    "name": "solids4foam",
+    "repo": "https://github.com/solids4foam/solids4foam.git",
+    "description":"Toolbox for performing solid mechanics and fluid-solid interaction simulations",
+    "type": "solver",
+    "version": ["2312", "2406", "2412", "9"],
+    "keywords": ["solid mechanics", "fluid-solid interaction", "FSI"]
+}
