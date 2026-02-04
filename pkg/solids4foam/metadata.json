@@ -3,6 +3,6 @@
     "repo": "https://github.com/solids4foam/solids4foam.git",
     "description":"Toolbox for performing solid mechanics and fluid-solid interaction simulations",
     "type": "solver",
-    "version": ["2512", "2506", "2412", "2406", "2312", "9"],
+    "version": [">=2312", "9"],
     "keywords": ["solid mechanics", "fluid-solid interaction", "FSI"]
 }
